@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
 <link rel="icon" href="https://pbs.twimg.com/media/FPOa6WpWUAQE2QH.jpg">
 <title>Matz</title>
 
 <style>
 h1{
-  font-size: 40px;
-  font-family: Verdana, sans-serif;
-
+  
+  font-family: "Sofia", sans-serif;
+  font-size: 50px;
 }
 h2,h3, h4, h5{
   margin-top: 40px;
@@ -38,24 +39,33 @@ section {
   margin-right: 20px;
 }
 
-textdeco.line{
+p.linethrough{
   text-decoration: line-through;
+}
+
+p.wavyunderline {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+p.textshadow{
+  text-shadow: 2px 2px 5px rgb(188, 53, 206);
 }
 </style>
 </head>
 <body>
 
-<h1><center>Introductions!</center></h1>
+<h1 class="font-effect-neon"><center>Introductions!</center></h1>
 
 <section><center>
 <h2>FULL NAME:</h2>
-<p>MATTHEW AARON A. PINLAC</p>
+<p class="textshadow">MATTHEW AARON A. PINLAC</p>
 </center></section>
 
 <section><center>
 <h3>Nickname:</h3>
-<textdeco = "line">AMATZ</textdeco>
-<p>Matz</p>
+<p class= "linethrough">AMATZ</p>
+<p class="wavyunderline">Matz</p>
 </center></section>
  
 <section><center>
@@ -64,7 +74,7 @@ textdeco.line{
 </center></section>
 
 <section><center>
-<h5>Senior High School Graduated From?</h5>
+<h5>Senior High School Graduated From:</h5>
 <p>Lyceum of the Philippines Cavite, General Trias Cavite</p>
 </center></section>
 
