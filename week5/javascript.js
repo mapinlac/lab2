@@ -19,3 +19,10 @@ function myFunction(p1, p2) {
   return p1 * p2;
 }
 document.getElementById("function").innerHTML = myFunction(5, 6);
+
+try {
+  variable("Welcome guest!");
+}
+catch(err) {
+  document.getElementById("error").innerHTML = err.message;
+}
