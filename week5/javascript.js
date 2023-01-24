@@ -14,3 +14,8 @@ document.getElementById("random").innerHTML = Math.random();
 const Apex = { title:"APEX", type:"FPS Battle Royale", team:"3 people"};
 
 document.getElementById("apex").innerHTML = "The game is called " + Apex.title + "it is a " + Apex.type + "and can be played with " + Apex.team;
+
+function myFunction(p1, p2) {
+  return p1 * p2;
+}
+document.getElementById("function").innerHTML = myFunction(5, 6);
