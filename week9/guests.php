@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "webprogss211";
+$password = "webprogss211";
 $dbname = "myDB";
 
 // Create connection
@@ -11,7 +11,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT id, firstname, lastname FROM MyGuests";
+$sql = "SELECT id, Name, Email FROM mapinlac_myguests";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {

@@ -118,8 +118,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	die("Connection failed: " . $conn->connect_error);
 	}
 	
-	$sql = "INSERT INTO mapinlac_myguests (firstname, lastname, email)
-	VALUES ('$name', ' ', '$email')";
+	$sql = "INSERT INTO mapinlac_myguests (Name, Email, Website, Comment, Gender)
+	VALUES ('$name', '$email', '$website','&comment', '$gender')";
 	
 	if ($conn->query($sql) === TRUE) {
 	echo "New record created successfully";
