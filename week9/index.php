@@ -78,6 +78,13 @@
   <p id="error"></p>
   </center>
   </section>
+  
+ <section><center>
+<p>Forms Link</p>
+<p><b><a class="one" href="form_validation.php">Forms Validation</a></b></p>
+<a href="guests.php"><p>Guests</p></a>
+</center>
+</section>
 </body>
 <script src="javascript.js"></script>
 </html>
